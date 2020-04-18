@@ -6,7 +6,7 @@ namespace HarmonyMod
     {
         private static int logInt = 0;
 
-        public static void GremyLogger(String message)
+        public static void GremyLogger(string message)
         {
             logInt++;
             Console.WriteLine("Gremy Log " + logInt + ": " + message);
